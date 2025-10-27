@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Generar PDF Rellenable – Hoja de Diagnóstico</title>
+<link rel="stylesheet" href="styles.css">
+<!-- Carga pdf-lib desde CDN -->
+<script src="https://unpkg.com/pdf-lib/dist/pdf-lib.min.js"></script>
+</head>
+<body>
+  <main class="container">
+    <h1>Hoja de Diagnóstico del Técnico – PDF Rellenable</h1>
+    <p>Haz clic en el botón para descargar un <strong>PDF con campos editables</strong> (AcroForm). Abre el PDF en la tablet (por ejemplo, con Adobe Acrobat) para rellenarlo.</p>
+    <button id="btn">Descargar PDF rellenable</button>
+
+    <details style="margin-top:1rem">
+      <summary>¿Cómo lo subo a GitHub Pages?</summary>
+      <ol>
+        <li>Crea un repositorio nuevo y sube estos archivos.</li>
+        <li>En <em>Settings → Pages</em>, elige la rama <em>main</em> y carpeta <em>root</em>.</li>
+        <li>Abre la URL que te da GitHub Pages y prueba el botón.</li>
+      </ol>
+    </details>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
